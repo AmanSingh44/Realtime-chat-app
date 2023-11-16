@@ -4,7 +4,7 @@ import Chat from './Chat';
 import "./App.css";
 
 
-const socket = io.connect('http://localhost:3001')
+const socket = io.connect('http://localhost:8000')
 
 function App() {
 
